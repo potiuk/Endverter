@@ -5,11 +5,11 @@ import static groovy.io.FileType.FILES
 private void updateSpeedsInTheSpeedZone(speedZone) {
     valueLow = speedZone.LowInMetersPerSecond.text()
     if (valueLow != '') {
-        speedZone.LowInMetersPerSecond[0] = valueLow.toDouble() * 0.99
+        speedZone.LowInMetersPerSecond[0] = valueLow.toDouble() * 1.01
     }
     valueHigh = speedZone.HighInMetersPerSecond.text()
     if (valueHigh != '') {
-        speedZone.HighInMetersPerSecond[0] = valueHigh.toDouble() * 1.01
+        speedZone.HighInMetersPerSecond[0] = valueHigh.toDouble() * 0.99
     }
 }
 
