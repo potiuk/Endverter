@@ -1,0 +1,46 @@
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+  <Workouts>
+    <Workout Sport="Running">
+      <Name>ENDOMONDO140714</Name>
+      <Step xsi:type="Step_t">
+        <StepId>1</StepId>
+        <Name>LOW</Name>
+        <Duration xsi:type="Distance_t">
+          <Meters>3400</Meters>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="Speed_t">
+          <SpeedZone xsi:type="CustomSpeedZone_t">
+            <ViewAs>Pace</ViewAs>
+            <LowInMetersPerSecond>2.293577981651376</LowInMetersPerSecond>
+            <HighInMetersPerSecond>2.293577981651376</HighInMetersPerSecond>
+          </SpeedZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>2</StepId>
+        <Name>PRESS_TO_FINISH</Name>
+        <Duration xsi:type="UserInitiated_t"/>
+        <Intensity>Resting</Intensity>
+        <Target xsi:type="None_t"/>
+      </Step>
+      <ScheduledOn>2014-07-14</ScheduledOn>
+    </Workout>
+  </Workouts>
+  <Author xsi:type="Application_t">
+    <Name>Endomondo</Name>
+    <Build>
+      <Version>
+        <VersionMajor>1</VersionMajor>
+        <VersionMinor>0</VersionMinor>
+        <BuildMajor>0</BuildMajor>
+        <BuildMinor>0</BuildMinor>
+      </Version>
+      <Type>Release</Type>
+      <Time>2014-07-13T14:31:23Z</Time>
+      <Builder>Endomondo</Builder>
+    </Build>
+    <LangID>en</LangID>
+    <PartNumber>000-00000-00</PartNumber>
+  </Author>
+</TrainingCenterDatabase>

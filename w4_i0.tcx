@@ -1,0 +1,110 @@
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+  <Workouts>
+    <Workout Sport="Running">
+      <Name>ENDOMONDO140728</Name>
+      <Step xsi:type="Step_t">
+        <StepId>1</StepId>
+        <Name>LOW</Name>
+        <Duration xsi:type="Time_t">
+          <Seconds>600</Seconds>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="Speed_t">
+          <SpeedZone xsi:type="CustomSpeedZone_t">
+            <ViewAs>Pace</ViewAs>
+            <LowInMetersPerSecond>2.293577981651376</LowInMetersPerSecond>
+            <HighInMetersPerSecond>2.293577981651376</HighInMetersPerSecond>
+          </SpeedZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Repeat_t">
+        <StepId>2</StepId>
+        <Repetitions>5</Repetitions>
+        <Child xsi:type="Step_t">
+          <StepId>3</StepId>
+          <Name>FAST</Name>
+          <Duration xsi:type="Time_t">
+            <Seconds>20</Seconds>
+          </Duration>
+          <Intensity>Active</Intensity>
+          <Target xsi:type="Speed_t">
+            <SpeedZone xsi:type="CustomSpeedZone_t">
+              <ViewAs>Pace</ViewAs>
+              <LowInMetersPerSecond>2.73972602739726</LowInMetersPerSecond>
+              <HighInMetersPerSecond>2.73972602739726</HighInMetersPerSecond>
+            </SpeedZone>
+          </Target>
+        </Child>
+        <Child xsi:type="Step_t">
+          <StepId>4</StepId>
+          <Name>RECOVERY</Name>
+          <Duration xsi:type="Time_t">
+            <Seconds>60</Seconds>
+          </Duration>
+          <Intensity>Resting</Intensity>
+          <Target xsi:type="Speed_t">
+            <SpeedZone xsi:type="CustomSpeedZone_t">
+              <ViewAs>Pace</ViewAs>
+              <LowInMetersPerSecond>2.293577981651376</LowInMetersPerSecond>
+              <HighInMetersPerSecond>2.293577981651376</HighInMetersPerSecond>
+            </SpeedZone>
+          </Target>
+        </Child>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>5</StepId>
+        <Name>FAST</Name>
+        <Duration xsi:type="Time_t">
+          <Seconds>20</Seconds>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="Speed_t">
+          <SpeedZone xsi:type="CustomSpeedZone_t">
+            <ViewAs>Pace</ViewAs>
+            <LowInMetersPerSecond>2.73972602739726</LowInMetersPerSecond>
+            <HighInMetersPerSecond>2.73972602739726</HighInMetersPerSecond>
+          </SpeedZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>6</StepId>
+        <Name>LOW</Name>
+        <Duration xsi:type="Distance_t">
+          <Meters>2500</Meters>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="Speed_t">
+          <SpeedZone xsi:type="CustomSpeedZone_t">
+            <ViewAs>Pace</ViewAs>
+            <LowInMetersPerSecond>2.293577981651376</LowInMetersPerSecond>
+            <HighInMetersPerSecond>2.293577981651376</HighInMetersPerSecond>
+          </SpeedZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>7</StepId>
+        <Name>PRESS_TO_FINISH</Name>
+        <Duration xsi:type="UserInitiated_t"/>
+        <Intensity>Resting</Intensity>
+        <Target xsi:type="None_t"/>
+      </Step>
+      <ScheduledOn>2014-07-28</ScheduledOn>
+    </Workout>
+  </Workouts>
+  <Author xsi:type="Application_t">
+    <Name>Endomondo</Name>
+    <Build>
+      <Version>
+        <VersionMajor>1</VersionMajor>
+        <VersionMinor>0</VersionMinor>
+        <BuildMajor>0</BuildMajor>
+        <BuildMinor>0</BuildMinor>
+      </Version>
+      <Type>Release</Type>
+      <Time>2014-07-13T14:31:24Z</Time>
+      <Builder>Endomondo</Builder>
+    </Build>
+    <LangID>en</LangID>
+    <PartNumber>000-00000-00</PartNumber>
+  </Author>
+</TrainingCenterDatabase>
